@@ -1,8 +1,12 @@
 // ReactDOM
 import ReactDOM from 'react-dom'
-
-// Pegando id da div da página principal da SPA (public/index.html)
-const conteudo = document.getElementById('root')
+// Import Reacto para utilização do JSX
+import React from 'react'
 
 // Usando o react dom para renderizar conteúdo
-ReactDOM.render('Olá mundo', conteudo)
+// É obrigatório a importação do React para utilzação do JSX
+// JSX Também pode ser atribuido a uma variável
+ReactDOM.render(
+    <div>Olá mundo!!!</div>,
+    document.getElementById('root')
+)
