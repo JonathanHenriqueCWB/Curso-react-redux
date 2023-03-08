@@ -1,12 +1,12 @@
-import React from 'react'
+import React from "react";
 
-function Primeiro() {
+const Primeiro = () => {
 
-    const mensagem = 'Primeiro componente criado em react!'
+    const mensagem =  'Criando o primeiro componente em raeact.'
 
     return (
         <div>
-            <h1>Olá mundo</h1>
+            <h3>Olá mundo</h3>
             <p> {mensagem} </p>
         </div>
     )
